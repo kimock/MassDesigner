@@ -1,22 +1,23 @@
-# 기본 PyTorch 및 CUDA 12.1 지원 버전
-torch==2.2.2+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
-torchvision==0.17.2+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
-torchaudio==2.2.2+cu121 --extra-index-url https://download.pytorch.org/whl/cu121
-
-# 안정적인 numpy 버전 (PyTorch 호환)
+# PyTorch/PyG Core Libraries (GPU dependencies)
+--extra-index-url https://download.pytorch.org/whl/cu121
+--extra-index-url https://data.pyg.org/whl/torch-2.2.0+cu121.html
 numpy==1.26.4
-
-# PyTorch Geometric 의존성 - CUDA 12.1 맞춤
-torch-scatter -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
-torch-sparse -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
-torch-cluster -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
-torch-spline-conv -f https://data.pyg.org/whl/torch-2.2.0+cu121.html
-
-# PyTorch Geometric 본 패키지
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
 torch-geometric
 
-# 유틸리티
+# Application and Utility Libraries
+streamlit
+Pillow
+openai
+python-dotenv
+matplotlib
 tensorboardX
 scipy
 tqdm
-streamlit
+ploty

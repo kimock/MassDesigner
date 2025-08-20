@@ -1,7 +1,7 @@
 # MassDesigner
 
-![입력페이지](https://github.com/user-attachments/assets/c89cce8a-dc45-4f8e-9268-8c7ad566346c)
-![화면 캡처 2025-05-11 184515](https://github.com/user-attachments/assets/8ee467d9-dc70-4ef5-915a-3f4b30e6a6c4)
+<img width="1291" height="386" alt="image" src="https://github.com/user-attachments/assets/2e8750c0-dc00-4bb2-8cf1-c633e77ce143" />
+<img width="1256" height="606" alt="화면 캡처 2025-08-10 205546" src="https://github.com/user-attachments/assets/5fcec2ba-d164-4bfd-88e8-4e268ddf5209" />
 
 Building-GAN 기반의 매스 생성 코드입니다
 

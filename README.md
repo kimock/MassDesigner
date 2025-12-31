@@ -22,7 +22,7 @@
 * **제약 조건 최적화**: `util_eval.py`를 통해 연결성(Connectivity)과 용적률(FAR)을 평가하고, 가장 적합한 결과물을 선별(`evaluate_best_of_n`)합니다.
 
 ### 3. 건축 프로그램 로직 및 후처리 (Rule-based Logic)
-* **프로그램 자동 할당**: `Lobby`, `Restroom`, `Stairs`, `Elevator`, `Office`, `Mechanical` 등 6가지 건축 프로그램을 기능적 위계에 맞춰 배치합니다.
+* **프로그램 자동 할당**: `Lobby`, `Office`, `core` 3가지 건축 프로그램을 기능적 위계에 맞춰 배치합니다.
 * **코어 통합 알고리즘**: 생성된 결과물에서 흩어진 코어(계단실 등)를 수직으로 정렬하거나 불필요한 노이즈를 제거하는 후처리 로직(`postprocess_core_labels`)이 적용됩니다.
 
 ### 4. 3D 시각화 및 대시보드 (Visualization)
